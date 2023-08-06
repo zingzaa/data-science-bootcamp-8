@@ -4,6 +4,10 @@ print("Hello world")
 print("One piece is very good manga")
 
 library(dplyr)
-mtcar %>%
+mtcars %>%
   select(1:5) %>%
+  filter(mpg > 30)
+
+mtcars %>%
+  select(mpg) %>%
   filter(mpg > 30)
