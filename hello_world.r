@@ -12,4 +12,3 @@ mtcars %>%
   select(mpg) %>%
   filter(mpg > 30)
 
-
